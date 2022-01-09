@@ -34,7 +34,7 @@ jobs:
     needs: prepare_release
     strategy:
       matrix:
-        DEVICE: [quartz64]
+        DEVICE: [quartz64-a]
         EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
         BRANCH: [stable]
     steps:
